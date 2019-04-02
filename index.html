@@ -28,186 +28,250 @@
         <h2 title="kvartalo means neighbourhood in esperanto">kvartalo project</h2>
         <hr>
         <i>Cryptocurrency & governance system for neighbourhoods</i>
-	<br>
-	<br>
-
-    <p>
-    kvartalo is a set of tools to provide <b>local currency & governance</b> system for neighbourhoods.
-    </p>
-    <p>
-    	Consists on a ecosystem where each neighbourhood can deploy its own cryptocurrency tied up with a governance system, where for example, people can use their wallet to vote in which social projects of the neighbourhood will be sent the specified % of fees of the transactions.
-    </p>
-    <p>
-	It's a live project, being developed while it's deployed in a real neighbourhood in Barcelona as a first pilot
-    </p>
-    <p>
-	It aims to create circular economy in the neighbourhoods, while empowering people and experimenting with the potential of blockchain technology.
-    </p>
         <br>
-	<div class="row">
-		<div class="col-sm-6">
-			<h5>
-			  <i class="fa fa-file-text-o" aria-hidden="true"></i>
-			  Documentation
-			</h5>
-			<ul>
-			  <li>
-			    <a href="https://github.com/kvartalo/docs" target="_blank">Docs</a>
-			  </li>
-			</ul>
-			<h5>
-			  <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
-			  Test app
-			</h5>
-			<ul>
-			  <li>
-			    <a href="https://app.kvartalo.xyz" target="_blank">App</a>
-			  </li>
-			</ul>
-		</div>
-		<div class="col-sm-6">
-			<h5>
-			  <i class="fa fa-github" aria-hidden="true"></i>
-			  Code
-			</h5>
-			<ul>
-			  <li>
-			    <a href="https://github.com/kvartalo/web-wallet" target="_blank">Web Wallet</a>
-			  </li>
-			  <li>
-			    <a href="https://github.com/kvartalo/relay" target="_blank">Relay node</a>
-			  </li>
-			  <li>
-			    <a href="https://github.com/kvartalo/token" target="_blank">Smart contracts</a>
-			  </li>
-			</ul>
-		</div>
-	</div>
+        <br>
+
+        <p>
+          kvartalo is a set of tools to provide <b>local currency & governance</b> system for neighbourhoods.
+        </p>
+        <p>
+          Consists on a ecosystem where each neighbourhood can deploy its own cryptocurrency tied up with a governance system, where for example, people can use their wallet to vote in which social projects of the neighbourhood will be sent the
+          specified % of fees of the transactions.
+        </p>
+        <p>
+          It's a live project, being developed while it's deployed in a real neighbourhood in Barcelona as a first pilot
+        </p>
+        <p>
+          It aims to create circular economy in the neighbourhoods, while empowering people and experimenting with the potential of blockchain technology.
+        </p>
+        <br>
+        <div class="row">
+          <div class="col-sm-6">
+            <h5>
+              <i class="fa fa-file-text-o" aria-hidden="true"></i>
+              Documentation
+            </h5>
+            <ul>
+              <li>
+                <a href="https://github.com/kvartalo/docs" target="_blank">Docs</a>
+              </li>
+            </ul>
+            <h5>
+              <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+              Test app
+            </h5>
+            <ul>
+              <li>
+                <a href="https://app.kvartalo.xyz" target="_blank">App</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h5>
+              <i class="fa fa-github" aria-hidden="true"></i>
+              Code
+            </h5>
+            <ul>
+              <li>
+                <a href="https://github.com/kvartalo/web-wallet" target="_blank">Web Wallet</a>
+              </li>
+              <li>
+                <a href="https://github.com/kvartalo/relay" target="_blank">Relay node</a>
+              </li>
+              <li>
+                <a href="https://github.com/kvartalo/token" target="_blank">Smart contracts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
       </div>
       <div class="col-sm-6" style="text-align:center;">
         <img src="img/mock00.png" alt="mock00">
       </div>
     </div>
+    <br><br>
+
+    <h3>How it works?</h3>
+    <hr>
+    <p>First experimental iteration</p>
+    <p>(Explanation under construction)</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>Economics</h4>
+        <ul>
+          <li>value 1:1 with <code>eur</code>
+            <ul>
+              <li>tokenized <code>eur</code>s</li>
+              <li>with possibility to unlink the value from <code>eur</code> in the future, but for the moment is a fixed rate</li>
+            </ul>
+          </li>
+          <li>token creation
+            <ul>
+              <li>each entity that will participate in the experiment, says which quantity of <code>eur</code> will be able to block</li>
+              <li>each entity 'blocks' / 'frozes' that quantity of <code>eur</code>, and receives that quantity in <code>kvt</code>. That action is a trusted action, as the entity is a trusted entity by the ecosystem
+                <ul>
+                  <li>in this way, all the <code>kvt</code> quantity of the ecosystem will be backed up with <code>eur</code></li>
+                </ul>
+              </li>
+              <li>to adquire <code>kvt</code> people can go to one of the entites that participate in the experiment, changing their <code>eur</code> for <code>kvt</code></li>
+              <li>a person that have <code>kvt</code> will be always able to change them back to <code>eur</code></li>
+            </ul>
+          </li>
+          <li>a multisig owned by the different entities manages the suply of <code>kvt</code>
+            <ul>
+              <li>when a new entity want to go in, will hold the <code>eur</code> and will receive the same quantity in <code>kvt</code> that are created (minted) by that multisig</li>
+            </ul>
+          </li>
+          <li>no money value is created in any moment. All the <code>kvt</code> are 'tokenized <code>eur</code>', in other words, the <code>kvt</code> are representations of real <code>eur</code>
+            <ul>
+              <li>all the inputs and outputs are always equal</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h4>Governance</h4>
+        <ul>
+          <li>for each transaction, there is a 1% fee</li>
+          <li>each month, the people using their wallet will be able to vote in which social cause will go the fees of that month</li>
+          <li>in this first phase, to avoid cheating, only addresses with more than a threshold <code>kvt</code> amount during X window time, will be able to vote</li>
+          <li><code>kvt</code> from fees will go directly to the address decided in the votation</li>
+        </ul>
+        <br>
+        <h4>Usability tradeoffs for the first version</h4>
+        <ul>
+          <li>common addresses limited to maximum of 20<code>kvt</code>
+            <ul>
+              <li>it's a low amount for the first phase of the experiment</li>
+              <li>to avoid acumulation and risks</li>
+            </ul>
+          </li>
+          <li>shop addresses will be able to hold more <code>kvt</code>, as they will need to accumulate the transactions of the payments</li>
+          <li>a proposal could be that the products selled in <code>kvt</code> will have some kind of % discount, to incentivize the use of <code>kvt</code> instead of <code>eur</code></li>
+        </ul>
+      </div>
+
+    </div>
 
     <br><br>
     <h3>Roadmap</h3>
     <hr>
     <ul class="timeline">
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-right">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">March 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                MVP implementation
-                <ul>
-                  <li>Token smart contract</li>
-                  <li>Relay server</li>
-                  <li>Web Wallet</li>
-                </ul>
-              </p>
-            </div>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-right">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">March 2019</h4>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-left">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">April 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Pilot iteration over real neighbourhood
-              </p>
-              <p>
-                Open process to define roadmap and characteristics
-              </p>
-            </div>
+          <div class="timeline-body">
+            <p>
+              MVP implementation
+              <ul>
+                <li>Token smart contract</li>
+                <li>Relay server</li>
+                <li>Web Wallet</li>
+              </ul>
+            </p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-right">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">May 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Basic governance model implementation
-                <ul>
-                  <li>Smart contracts</li>
-                  <li>Web Wallet</li>
-                </ul>
-              </p>
-            </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-left">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">April 2019</h4>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-left">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">June 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Documentation & public presentation of the project
-              </p>
-            </div>
+          <div class="timeline-body">
+            <p>
+              Pilot iteration over real neighbourhood
+            </p>
+            <p>
+              Open process to define roadmap and characteristics
+            </p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-right">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">July 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Second iteration over real neighbourhood
-              </p>
-            </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-right">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">May 2019</h4>
           </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-left">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">August 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Implement multicurrency system wallet (multiple neighbourhoods)
-              </p>
-            </div>
+          <div class="timeline-body">
+            <p>
+              Basic governance model implementation
+              <ul>
+                <li>Smart contracts</li>
+                <li>Web Wallet</li>
+              </ul>
+            </p>
           </div>
-        </li>
-        <li>
-          <div class="timeline-badge"></div>
-          <div class="timeline-panel" data-aos="fade-right">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">September 2019</h4>
-            </div>
-            <div class="timeline-body">
-              <p>
-                Future
-              </p>
-            </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-left">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">June 2019</h4>
           </div>
-        </li>
-      </ul>
+          <div class="timeline-body">
+            <p>
+              Documentation & public presentation of the project
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-right">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">July 2019</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Second iteration over real neighbourhood
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="timeline-inverted">
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-left">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">August 2019</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Implement multicurrency system wallet (multiple neighbourhoods)
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-badge"></div>
+        <div class="timeline-panel" data-aos="fade-right">
+          <div class="timeline-heading">
+            <h4 class="timeline-title">September 2019</h4>
+          </div>
+          <div class="timeline-body">
+            <p>
+              Future
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
 
   </div>
 
   <div style="margin-top: 50px;padding: 30px;text-align:center;">kvartalo 2019</div>
 
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
